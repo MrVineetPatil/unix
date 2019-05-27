@@ -1,0 +1,18 @@
+from Stack.create import Stack
+from Queue.createq import Queue
+a=Stack([1,2,3,4])
+b=Queue([1,2,3,4])
+print ("Stack a:",a)
+print ("Queue b:",b)
+a.insert(5)
+print("Updated stack:",a)
+a.remove()
+print ("Item popped,displaying stack",a)
+a.top()
+print("Item on the top:",a.top())
+b.insert(9)
+print("updated queue:",b)
+b.remove()
+print("item removed from queue,displaying queue:",b)
+print("Front:",b.front())
+print("Rear:",b.rear())
